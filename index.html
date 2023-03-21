@@ -6,66 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jose Campos Chaves">
     <meta name="description" content="Proyecto html Fase1" >
-    <link rel="icon" href="favicon/favicon.ico" sizes="favicon-32x32" type="imagen/icon">
-    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Pagina Principal Morfo´s Salon</title>
 </head>
 <body>
     <!-- menu de paginas -->
     <section>
-        <nav>
-            <table>
-                <th>
-                    <a href="quienessomos.html">
-                        ¿QUIÉNES SOMOS?
-                    </a>
-                </th>
-                <th>
-                    <a href="trabajosdecabello.html">
-                        TRABAJOS EN CABELLO
-                    </a>
-                </th>
-                <th>
-                    <a href="trabajosenuñas.html">
-                        TRABAJOS EN UÑAS
-                    </a>
-                </th>
-                <th>
-                    <a href="productos.html">
-                        PRODUCTOS
-                    </a> 
-                </th>
-                <th>
-                    <a href="contactenos.html">
-                        CONTÁCTENOS
-                    </a>
-                </th>
-            </table>            
+        <nav class="navbar">
+            <img src="image/image.png" alt="logo" class="logonav">
+            <a href="index.html">
+                INICIO </a> 
+            </a>
+            <a href="quienessomos.html">
+                ¿QUIÉNES SOMOS?
+            </a>
+            <a href="trabajosdecabello.html">
+                TRABAJOS EN CABELLO
+            </a>
+            <a href="trabajosenuñas.html">
+                TRABAJOS EN UÑAS
+            </a>
+            <a href="productos.html">
+                PRODUCTOS
+            </a>
+            <a href="contactenos.html">
+                CONTÁCTENOS
+            </a>                    
         </nav>        
     </section>
     <header align="center">
         <h1>MORFO'S SALON</h1>
     </header>
-    <section align="center">
+    <section class="cuerpo" align="center">
         <!-- logo -->
         <article>
-            <figure>
-                <img src="image/LogoMorfosSalon2.jpeg" width="800" height="400" border="0" alt="no se encontro la imagen">
+            <figure class="bordelogo">
+                <img src="image/image.png" width="800" height="400" border="0" alt="no se encontro la imagen">
             </figure>
         </article>
-    </section>
-    <br><br>
-    
-    <br><br><br><br><br><br><br><br><br><br><br>
-    <footer align="center">
+    </section>    
+    <footer>
         <!-- contactos -->
         Nuestros Contactos:
         <br>
         <a href="https://wa.me/50688085263?text=Hola%20vengo%20 de%20la%20pagina%20web%20y%20me%20gustaría%20solicitar%20más%20información%20sobre:" target="_blank">
-            <img src="favicon/whatsapp.png" alt="">
+            <i class="fa-brands fa-whatsapp"></i>
         </a>
         <a href="mailto:c.magalygr.69@gmail.com" target="_blank">
-            <img src="favicon/sobre.png" alt="">
+            <i class="fa-sharp fa-regular fa-envelope"></i>
         </a>
         <br>                      
         Todos los derechos reservados Morfo´s Salon - CR &copy; 2023

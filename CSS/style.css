@@ -1,0 +1,91 @@
+:root{
+    --color-nav-footer: rgb(41, 41, 41);
+    --color-hover-hypervinvulos:#00cdff;
+    --color-texto-nav-footer:#f7f7f7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #f7f7f7;
+}
+
+.bordelogo{    
+    background-color: var(--color-nav-footer);
+    width: 900px;
+    border-radius: 50px;
+    margin: 80px auto;
+    border: 1px solid black;
+}
+.bordelogo:hover{
+    border: 1px solid var(--color-hover-hypervinvulos);
+}
+
+header h1{
+    color: var(--color-texto-nav-footer);
+}
+
+.navbar{
+    display: flex;
+    background-color: var(--color-nav-footer);
+    width: auto;
+    height: 80px;
+    justify-content: space-around;    
+    align-items: center;       
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--color-texto-nav-footer);
+    padding: 10px;
+    font-size: 20px;    
+}
+
+.navbar a:hover{
+    transition: all;
+    transition-duration: 0.5s;
+    color:var(--color-hover-hypervinvulos);
+}
+
+.logonav{
+    padding: 10px;
+    width: 100px;
+    height: 60px;
+}
+
+.cuerpo{
+    width: auto;
+    margin-bottom: 233px;    
+}
+
+footer{
+    bottom: 10%;
+    width: auto;
+    height: 45px;
+    background-color: var(--color-nav-footer);    
+    padding: 20px;
+    color: var(--color-texto-nav-footer);
+    text-transform: uppercase;
+    text-align: center;        
+}
+
+footer a i{
+    color: var(--color-texto-nav-footer);    
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a i:hover{
+    transition: all;
+    transition-duration: 0.5s;
+    color:var(--color-hover-hypervinvulos);
+}
+
+/* quienes somos? */
+
+
