@@ -2,15 +2,20 @@
     --color-nav-footer: rgb(41, 41, 41);
     --color-hover-hypervinvulos:#00cdff;
     --color-texto-nav-footer:#f7f7f7;
+    --color-blanco-fondo-body: #f7f7f7;
+    --color-negro: #111111;
 }
 
 *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;    
 }
+
 body{
-    background-color: #f7f7f7;
+    background-color: var(--color-blanco-fondo-body);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .bordelogo{     
@@ -125,24 +130,84 @@ footer a i:hover{
 }
 
 /* trabajos en cabello */
+.header_cabello{
+    border: 1px solid var(--color-hover-hypervinvulos);
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 25px;
+}
 
-body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.header_cabello h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--color-hover-hypervinvulos);
+    text-shadow: var(--color-nav-footer) 1px 1px;    
+}
+
+.seccion_cabello{
+    text-align: center;    
+}
+
+.seccion_cabello h2{
+    background-color: var(--color-blanco-fondo-body); 
+    color: var(--color-hover-hypervinvulos);
+    text-shadow: var(--color-nav-footer) 1px 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+}
+
+.seccion_cabello ul{
+    border: 1px solid var(--color-hover-hypervinvulos);
+    width: 250px;
+    margin: auto;
+    border-radius: 25px;
+    list-style: none;
+    
+}
+
+.seccion_cabello  ul li{
+    font-size: 20px;
+    color: var(--color-hover-hypervinvulos);
+    text-shadow: var(--color-nav-footer) 1px 1px; 
+    
+}
+
+.catalogo{
+    background-color: var(--color-blanco-fondo-body); 
+    color: var(--color-hover-hypervinvulos);
+    border: 1px solid var(--color-hover-hypervinvulos);
+    text-shadow: var(--color-nav-footer) 1px 1px;        
+    font-size: 30px;        
+    border-radius: 25px;    
+    width: 175px;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .videos_pelo{
     width: 100%;
     display: flex;    
-    justify-content: space-around;        
+    justify-content: space-around;
+    margin: 20px;        
 }
 
 .videos_pelo p{
-    
-    font-size: 20px;
-    color: #f7f7f7;
-    box-shadow: #00cdff;
+    background-color: var(--color-blanco-fondo-body); 
+    color: var(--color-hover-hypervinvulos);
+    border: 1px solid var(--color-hover-hypervinvulos);
+    text-shadow: var(--color-nav-footer) 1px 1px;    
+    font-size: 20px;       
+    border-radius: 25px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    margin: auto; 
+    margin-bottom: 10px;   
 }
 
 .videos_pelo video{
@@ -151,18 +216,14 @@ body{
     border-radius: 25px;
 }
 
-
-
 .contenedor_img_pelo{ 
     width: 100%;   
     display: flex;
     flex-wrap: wrap;
     margin: 5px auto;
     justify-content: space-around;
-}
-
-.contenedor_img_pelo{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .contenedor_img_pelo img{
