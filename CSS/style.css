@@ -385,3 +385,63 @@ footer a i:hover{
     text-shadow: var(--color-nav-footer) 1px 1px; 
 }
 
+/* contactenos */
+
+.header_contactenos{
+    border: 1px solid var(--color-titulos-bordes);
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+
+.header_contactenos h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--color-titulos);
+    text-shadow: var(--color-titulos-sombras) 1px 1px;    
+}
+
+.seccion_contactenos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+
+}
+
+.seccion_contactenos img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+.seccion_contactenos h2{    
+    color: var(--color-titulos);
+    text-shadow: 1px 1px var(--color-titulos-sombras);
+}
+
+.seccion_contactenos p{
+    color: var(--color-textos);
+    text-shadow: 1px 1px var(--color-textos-sombras);
+}
+
+.seccion_contactenos a{
+    color: var(--color-nav-footer);
+    font-size: 30px;    
+}
+
+.seccion_contactenos a:hover{
+    color: var(--color-hover-hypervinvulos);
+}
+
+.seccion_contactenos form{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid var(--color-textos);
+    color: var(--color-textos);
+    background-color: var(--color-nav-footer);
+}
