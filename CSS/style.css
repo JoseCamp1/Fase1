@@ -7,23 +7,24 @@
     --color-negro: #111111;
     --color-blanco:#f7f7f7;    
     --color-textos:#00cdff;
-    --color-textos-sombras:rgb(41, 41, 41);
+    --color-textos-sombras:#f7f7f7;
     --color-textos-bordes:#00cdff;
     --color-titulos:#00cdff;
-    --color-titulos-sombras:rgb(41, 41, 41);
+    --color-titulos-sombras:#0671B6;
     --color-titulos-bordes:#00cdff;
 }
 
 *{
     margin: 0;
-    padding: 0;    
+    padding: 0;
+       
 }
 
 body{
     background-color: var(--color-blanco-fondo-body);
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    
 }
 
 .bordelogo{     
@@ -48,8 +49,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     background-color: var(--color-nav-footer);
-    width: auto;
-    height: 80px;
+    width: 100%;    
     justify-content: space-around;    
     align-items: center;       
 }
@@ -82,7 +82,7 @@ footer{
     display: flex;
     flex-direction: column;    
     bottom: 10%;
-    width: auto;
+    width: 100%;
     height: 45px;
     background-color: var(--color-nav-footer);    
     padding: 20px;
@@ -123,6 +123,13 @@ footer a i:hover{
 
 }
 
+.seccion_quienes figure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%; 
+}
+
 .seccion_quienes p{
     color: var(--color-textos);
     text-shadow: var(--color-textos-sombras) 1px 1px;
@@ -135,8 +142,7 @@ footer a i:hover{
 }
 
 .seccion_quienes img{
-    width: 400px;
-    height: 400px;
+    width: 30%;   
     border-radius: 25px;    
 }
 
@@ -209,36 +215,41 @@ footer a i:hover{
 }
 
 .videos_pelo{
-    width: 100%;
-    display: flex;    
-    justify-content: space-around;
-    margin: 20px;        
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;           
 }
 
 .videos_pelo p{
      
-    color: var(--color-textos);
-    border: 1px solid var(--color-textos-bordes);
-    text-shadow: var(--color-textos-sombras) 1px 1px;    
+    color: var(--color-titulos);
+    border: 1px solid var(--color-titulos-bordes);
+    text-shadow: var(--color-titulos-sombras) 1px 1px;    
     font-size: 20px;       
     border-radius: 25px;
     width: 150px;
     height: 25px;
     text-align: center;
     margin: auto; 
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
+       
 }
 
 .videos_pelo video{
     box-shadow: var(--color-hover-hypervinvulos) 5px 5px;
-    margin: 1px;
+    margin: 10px;
     border-radius: 25px;
+    
+    
 }
 
 .contenedor_img_pelo{ 
-    width: 100%;   
+    width: 90%;   
     display: flex;
     flex-wrap: wrap;
+    padding: 5px;
     margin: 5px auto;
     justify-content: space-around;
     text-align: center;
@@ -252,7 +263,7 @@ footer a i:hover{
     height: 280px;      
     margin: 5px;    
     border-radius: 25px;
-    transition: 0.7s ease;    
+    transition: 0.7s ease;   
 }
 
 .contenedor_img_pelo img:hover{
@@ -308,7 +319,7 @@ footer a i:hover{
 }
 
 .contenedor_img_unas{ 
-    width: 100%;   
+    width: 90%;   
     display: flex;
     flex-wrap: wrap;
     margin: 5px auto;
@@ -353,7 +364,7 @@ footer a i:hover{
 }
 
 .contenedor_img_productos{ 
-    width: 100%;   
+    width: 90%;   
     display: flex;
     flex-wrap: wrap;
     margin: 5px auto;
@@ -381,8 +392,8 @@ footer a i:hover{
 
 .contenedor_img_productos p{
     font-size: 17px;
-    color: var(--color-hover-hypervinvulos);
-    text-shadow: var(--color-nav-footer) 1px 1px; 
+    color: var(--color-textos);
+    text-shadow: var(--color-textos-sombras) 1px 1px; 
 }
 
 /* contactenos */
@@ -430,7 +441,9 @@ footer a i:hover{
 
 .seccion_contactenos a{
     color: var(--color-nav-footer);
-    font-size: 30px;    
+    font-size: 30px;
+    width: 40px;
+    margin: auto;    
 }
 
 .seccion_contactenos a:hover{
@@ -445,3 +458,5 @@ footer a i:hover{
     color: var(--color-textos);
     background-color: var(--color-nav-footer);
 }
+
+/* media query */
