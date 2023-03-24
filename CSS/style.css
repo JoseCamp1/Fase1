@@ -63,6 +63,7 @@ body{
 }
 
 .navbar a:hover{
+    cursor: pointer;
     transition: all;
     transition-duration: 0.5s;
     color:var(--color-hover-hypervinvulos);
@@ -103,6 +104,7 @@ footer a{
 }
 
 footer a i:hover{
+    cursor: pointer;
     transition: all;
     transition-duration: 0.5s;
     color:var(--color-hover-hypervinvulos);
@@ -270,6 +272,7 @@ footer a i:hover{
 }
 
 .contenedor_img_pelo img:hover{
+    cursor: pointer;
     box-shadow: none;
     border: 1px solid var(--color-hover-hypervinvulos);    
     transform: scale(1.4)
@@ -342,6 +345,7 @@ footer a i:hover{
 }
 
 .contenedor_img_unas img:hover{
+    cursor: pointer;
     box-shadow: none;
     border: 1px solid var(--color-hover-hypervinvulos);    
     transform: scale(1.4)
@@ -387,6 +391,7 @@ footer a i:hover{
 }
 
 .contenedor_img_productos img:hover{
+    cursor: pointer;
     box-shadow: none;
     border: 1px solid var(--color-hover-hypervinvulos);    
     transform: scale(1.4)
@@ -451,16 +456,56 @@ footer a i:hover{
 
 .seccion_contactenos a:hover{
     color: var(--color-hover-hypervinvulos);
+    cursor: pointer;
 }
 
 .seccion_contactenos form{
+    width: 30%;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: 1px solid var(--color-textos);
-    color: var(--color-textos);
     background-color: var(--color-nav-footer);
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
 }
+
+.seccion_contactenos form input , textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+}
+
+.seccion_contactenos form textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;    
+}
+
+#boton1{
+    background-color: var(--color-hover-hypervinvulos);
+    color: var(--color-blanco-fondo-body);
+    padding: 10px;
+}
+
+#boton2{
+    background-color: var(--color-hover-hypervinvulos);
+    color: var(--color-blanco-fondo-body);
+    padding: 10px;
+}
+
+#boton1:hover{
+    cursor: pointer;
+    color: var(--color-nav-footer);
+}
+
+#boton2:hover{
+    cursor: pointer;
+    color: var(--color-nav-footer);
+}
+
+
 
 /* media query */
 
@@ -512,10 +557,10 @@ footer a i:hover{
     .seccion_cabello ul {
       width: 90%;
     }
-  }
+}
 
 
-  @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     :root{
       --color-nav-footer: rgb(41, 41, 41);
       --color-hover-hypervinvulos:#00cdff;
@@ -624,5 +669,6 @@ footer a i:hover{
 
     }
 
+}  
 
-  }  
+  
