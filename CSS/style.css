@@ -6,7 +6,7 @@
     --color-blanco-fondo-body: #f7f7f7;
     --color-negro: #111111;
     --color-blanco:#f7f7f7;    
-    --color-textos:#00cdff;
+    --color-textos:#025f8a;
     --color-textos-sombras:#f7f7f7;
     --color-textos-bordes:#00cdff;
     --color-titulos:#00cdff;
@@ -148,7 +148,8 @@ footer a i:hover{
 
 .seccion_quienes img{
     width: 30%;   
-    border-radius: 25px;    
+    border-radius: 25px;
+
 }
 
 .seccion_quienes div{
@@ -262,6 +263,7 @@ footer a i:hover{
 }
 
 .contenedor_img_pelo img{
+    
     box-shadow: var(--color-hover-hypervinvulos) 5px 5px;
     text-align: center;
     width: 220px;
@@ -335,6 +337,7 @@ footer a i:hover{
 }
 
 .contenedor_img_unas img{
+    
     box-shadow: var(--color-hover-hypervinvulos) 5px 5px;
     text-align: center;
     width: 220px;
