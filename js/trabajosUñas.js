@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", ()=>{
+window.addEventListener("load", ()=>{
     agregar_trabajo_en_uñas()    
 });
 

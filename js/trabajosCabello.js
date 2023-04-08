@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", ()=>{
+// document.addEventListener('DOMContentLoaded', function() {}
+window.addEventListener("load", ()=>{
     agregar_Corte_de_Pelo()    
 });
 
