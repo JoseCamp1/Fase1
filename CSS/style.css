@@ -586,30 +586,16 @@ video {
 
 
 @media only screen and (max-width: 480px) {
-    /* :root{
-    --color-nav-footer: rgb(41, 41, 41);
-    --color-hover-hypervinvulos:#00cdff;
-    --color-texto-nav-footer:#f7f7f7;
-    --color-blanco-fondo-body: #f7f7f7;
-    --color-negro: #111111;
-    --color-blanco:#f7f7f7;    
-    --color-textos:#00cdff;
-    --color-textos-sombras:#f7f7f7;
-    --color-textos-bordes:#00cdff;
-    --color-titulos:#00cdff;
-    --color-titulos-sombras:#0671B6;
-    --color-titulos-bordes:#00cdff;
-    } */
-    
+        
     .bordelogo{
-    width: 100%;
+    width: 90%;
     height: auto;
-    border-radius: 0;
+    border-radius: 25px;   
     }
     
     .bordelogo img{
     width: 100%;
-    height: auto;
+    height: auto;    
     }
     
     .navbar{
@@ -633,7 +619,7 @@ video {
     }
     
     .cuerpo{
-    width: 80%;
+    width: 100%;
     margin-bottom: 60px;
     }
     
@@ -656,7 +642,7 @@ video {
     
     .seccion_quienes p{
     font-size: 16px;
-    width: 80%;
+    width: 80%;    
     margin-bottom: 20px;
     margin-top: 20px;
     }
@@ -699,5 +685,120 @@ video {
         margin-bottom: 20px;
     }
 
+    #slider img {        
+        height: 100%;       
+    }
+    
+
 }  
+
+@media only screen and (min-width: 480px) {
+        
+    .bordelogo{
+    width: 90%;
+    height: auto;
+    border-radius: 25px;   
+    }
+    
+    .bordelogo img{
+    width: 100%;
+    height: auto;    
+    }
+    
+    .navbar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .navbar a{
+    font-size: 16px;
+    margin: 10px 0;
+    }
+    
+    .logonav{
+    width: 80px;
+    height: 40px;
+    }
+
+    footer{
+        height: 20%;
+    }
+    
+    .cuerpo{
+    width: 100%;
+    margin-bottom: 60px;
+    }
+    
+    .header_quienes{
+    width: 90%;
+    border-radius: 15px;
+    }
+    
+    .header_quienes h1{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .seccion_quienes figure{
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    }
+    
+    .seccion_quienes p{
+    font-size: 16px;
+    width: 80%;    
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+    
+    .seccion_quienes img{
+    width: 80%;
+    margin-bottom: 20px;
+    align-items: center;
+    }
+        
+    .header_cabello{
+    width: 80%;
+    border-radius: 15px;
+    }
+    
+    .header_cabello h1{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .seccion_cabello h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .seccion_cabello ul{
+    width: 80%;
+    margin-bottom: 20px;
+    }
+
+    .seccion_contactenos form{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .seccion_contactenos img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #slider img {        
+        height: 100%;       
+    }
+    
+
+}  
+
+
+
 
