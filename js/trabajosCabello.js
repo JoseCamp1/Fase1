@@ -1,3 +1,4 @@
+
 // document.addEventListener('DOMContentLoaded', function() {}
 window.addEventListener("load", ()=>{
     agregar_Corte_de_Pelo()    
@@ -60,4 +61,3 @@ function agregar_Corte_de_Pelo(){
     // debugger
     document.getElementById("lista_Cortes").innerHTML= cortes_array.join("");
 }
-

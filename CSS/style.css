@@ -85,10 +85,9 @@ footer{
     justify-content: center;    
     bottom: 10%;
     width: 100%;
-    height: 104px;
+    height: 60px;
     margin: auto;
-    background-color: var(--color-nav-footer); 
-    
+    background-color: var(--color-nav-footer);    
     color: var(--color-texto-nav-footer);
     text-transform: uppercase;
     text-align: center;        
@@ -262,8 +261,8 @@ footer a i:hover{
     
     box-shadow: var(--color-hover-hypervinvulos) 5px 5px;
     text-align: center;
-    width: 220px;
-    height: 280px;      
+    width: 280px;
+    height: 320px;      
     margin: 5px;    
     border-radius: 25px;
     transition: 0.7s ease;   
@@ -336,8 +335,8 @@ footer a i:hover{
     
     box-shadow: var(--color-hover-hypervinvulos) 5px 5px;
     text-align: center;
-    width: 220px;
-    height: 280px;      
+    width: 280px;
+    height: 320px;      
     margin: 5px;    
     border-radius: 25px;
     transition: 0.7s ease;    
@@ -382,8 +381,8 @@ footer a i:hover{
 .contenedor_img_productos img{
     box-shadow: var(--color-hover-hypervinvulos) 5px 5px;
     text-align: center;
-    width: 220px;
-    height: 280px;      
+    width: 280px;
+    height: 320px;      
     margin: 5px;    
     border-radius: 25px;
     transition: 0.7s ease;    
@@ -513,8 +512,8 @@ video {
 /*slider*/
 
 #slider {
-    width: 600px;
-    height: 400px;
+    width: 560px;
+    height: 640px;
     position: relative;
     overflow: hidden;
 }
@@ -583,7 +582,7 @@ video {
 
 
 @media only screen and (max-width: 480px) {
-    :root{
+    /* :root{
     --color-nav-footer: rgb(41, 41, 41);
     --color-hover-hypervinvulos:#00cdff;
     --color-texto-nav-footer:#f7f7f7;
@@ -596,7 +595,7 @@ video {
     --color-titulos:#00cdff;
     --color-titulos-sombras:#0671B6;
     --color-titulos-bordes:#00cdff;
-    }
+    } */
     
     .bordelogo{
     width: 100%;
