@@ -556,6 +556,10 @@ video {
     height: 40px;
     padding: 5px;
     }
+
+    footer{
+        height: 20%;
+    }
     
     .header_quienes {
     width: 90%;
@@ -623,8 +627,13 @@ video {
     width: 80px;
     height: 40px;
     }
+
+    footer{
+        height: 20%;
+    }
     
     .cuerpo{
+    width: 80%;
     margin-bottom: 60px;
     }
     
@@ -642,12 +651,12 @@ video {
     .seccion_quienes figure{
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 80%;
     }
     
     .seccion_quienes p{
     font-size: 16px;
-    width: 90%;
+    width: 80%;
     margin-bottom: 20px;
     margin-top: 20px;
     }
@@ -655,10 +664,11 @@ video {
     .seccion_quienes img{
     width: 80%;
     margin-bottom: 20px;
+    align-items: center;
     }
-    
+        
     .header_cabello{
-    width: 90%;
+    width: 80%;
     border-radius: 15px;
     }
     
@@ -686,8 +696,7 @@ video {
 
     .seccion_contactenos img{
         width: 80%;
-        margin-bottom: 20px;   
-
+        margin-bottom: 20px;
     }
 
 }  
