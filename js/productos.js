@@ -70,7 +70,7 @@ function crear_productos(){
     const productos_array = productos.map(p => {
         return `
         <figure>
-            <img src="${p.imagen_url}" alt="No se encontró la imagen">
+            <img src="${p.imagen_url}" loading="lazy" alt="No se encontró la imagen">
             <figcaption>
                 <p>${p.titulo}</p>
             </figcaption>

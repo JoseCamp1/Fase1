@@ -32,7 +32,7 @@ body{
     width: 800px;
     height: 600px;
     border-radius: 50px;
-    margin: auto;
+    margin: 0 auto;
     box-shadow: 5px 5px var(--color-hover-hypervinvulos);    
 }
 
@@ -64,7 +64,7 @@ body{
 .navbar a:hover{
     cursor: pointer;
     transition: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.7s;
     color:var(--color-hover-hypervinvulos);
 }
 
@@ -76,7 +76,7 @@ body{
 
 .cuerpo{
     width: 100%;
-    margin-bottom: 119px;    
+    margin-bottom: 40px;    
 }
 
 footer{    
@@ -265,14 +265,14 @@ footer a i:hover{
     height: 320px;      
     margin: 5px;    
     border-radius: 25px;
-    transition: 0.7s ease;   
+    transition: 0.7s ease-in-out;   
 }
 
 .contenedor_img_pelo img:hover{
     cursor: pointer;
     box-shadow: none;
     border: 1px solid var(--color-hover-hypervinvulos);    
-    transform: scale(1.4)
+    transform: scale(1.2)
 
 }
 
@@ -339,14 +339,14 @@ footer a i:hover{
     height: 320px;      
     margin: 5px;    
     border-radius: 25px;
-    transition: 0.7s ease;    
+    transition: 0.7s ease-in-out;    
 }
 
 .contenedor_img_unas img:hover{
     cursor: pointer;
     box-shadow: none;
     border: 1px solid var(--color-hover-hypervinvulos);    
-    transform: scale(1.4)
+    transform: scale(1.2)
 
 }
 
@@ -385,14 +385,14 @@ footer a i:hover{
     height: 320px;      
     margin: 5px;    
     border-radius: 25px;
-    transition: 0.7s ease;    
+    transition: 0.7s ease-in-out;    
 }
 
 .contenedor_img_productos img:hover{
     cursor: pointer;
     box-shadow: none;
     border: 1px solid var(--color-hover-hypervinvulos);    
-    transform: scale(1.4)
+    transform: scale(1.2)
 
 }
 
@@ -433,6 +433,8 @@ footer a i:hover{
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 25px;
+    width: 600px;    
+    height:400px;
 }
 
 .seccion_contactenos h2{    
@@ -528,7 +530,7 @@ video {
     transition: opacity 1s ease-in-out;
 }
 
-/* media query */
+/* Responsive */
 
 @media screen and (max-width: 600px) {
     .bordelogo {
@@ -798,7 +800,3 @@ video {
     
 
 }  
-
-
-
-

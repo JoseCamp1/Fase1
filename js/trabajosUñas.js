@@ -82,6 +82,9 @@ const uñas = [
         imagen_url:"image/Uñas26.jpeg",
     },
     {
+        imagen_url:"image/Uñas27.jpeg",
+    },
+    {
         imagen_url:"image/Jellyspa2.jpeg",
     },
 
@@ -90,7 +93,7 @@ const uñas = [
 function agregar_trabajo_en_uñas(){ 
     const uñas_array = uñas.map(p => {
         return `
-        <img src="${p.imagen_url}" alt="No se encontró la imagen">
+        <img src="${p.imagen_url}" loading="lazy" alt="No se encontró la imagen">
         `
     } );
     // debugger
