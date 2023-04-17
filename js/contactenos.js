@@ -27,7 +27,7 @@ async function handleSubmit(){
     // Si la respuesta de la petición es exitosa (código 200-299), resetea el formulario y muestra un mensaje de agradecimiento.
     if(response.ok){
         this.reset()
-        alert('Gracias por contactar con Morfos Salon.');
+        alert('Gracias por contactar con Morfos Salon. nos comunicaremos con usted pronto.');
     }
 }
 
