@@ -44,24 +44,22 @@ body{
 
 .cuerpo{
     width: 100%;
-    margin-bottom: 40px;    
+    margin-bottom: 60px;    
 }
 
 footer{    
     display: flex;
     flex-direction: column;
     justify-content: center;    
-    /* bottom: 10%; */
-    /* width: 100%; */
-    /* height: 60px; */
+    bottom: 10%;
+    width: 100%;
+    height: 10vh;
     margin: auto;
     background-color: var(--color-nav-footer);    
     color: var(--color-texto-nav-footer);
     /* text-transform: uppercase; */
     text-align: center;
-    width: 100%;
-    position: absolute;
-    bottom: 0;        
+            
 }
 
 footer a i{
@@ -559,9 +557,9 @@ video {
     height: auto;    
     }    
 
-    /* footer{
-        height: 20%;
-    } */
+    footer{
+        height: 10vh;
+    }
     
     .cuerpo{
     width: 100%;
@@ -642,7 +640,7 @@ video {
     .bordelogo{
     width: 90%;
     height: auto;
-    border-radius: 25px;   
+    border-radius: 25px;       
     }
     
     .bordelogo img{
@@ -650,9 +648,11 @@ video {
     height: auto;    
     }
     
-    /* footer{
-        height: 10vh;        
-    } */
+    footer{
+        height: 10vh;
+        margin-top: 90px;
+                
+    }
     
     .cuerpo{
     width: 100%;
@@ -740,7 +740,7 @@ video {
 .back{
     padding: 32px 0;
     background-color: var(--color-nav-footer);
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .menu{
