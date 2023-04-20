@@ -1,5 +1,5 @@
-
 // document.addEventListener('DOMContentLoaded', function() {} , no sirvió de esta forma en github
+
 // Se agrega un event listener al objeto window que se activa cuando la página web termina de cargarse.
 // Cuando esto ocurre, se llama a la función agregar_Corte_de_Pelo().
 window.addEventListener("load", () => {
@@ -78,3 +78,16 @@ function agregar_Corte_de_Pelo(){
     // los elementos en el elemento HTML seleccionado.
     document.getElementById("lista_Cortes").innerHTML= cortes_array.join("");
 }
+
+//Implementando jQuery
+ //Se Agrega un evento de clic al botón
+$("input").click(function() {
+    //Se Obtiene el elemento de audio
+    const audio = $("#audio_btn").get(0);
+    
+    //Se Reinicia el audio al principio
+    $(audio).prop("currentTime", 0);
+    
+    //Se Reproduce el audio
+    $(audio).get(0).play();
+});

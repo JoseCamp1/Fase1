@@ -99,3 +99,16 @@ function agregar_trabajo_en_uñas(){
     // debugger
     document.getElementById("lista_uñas").innerHTML= uñas_array.join("");
 }
+
+//Implementando jQuery
+ //Se Agrega un evento de clic al botón
+$("input").click(function() {
+    //Se Obtiene el elemento de audio
+    const audio = $("#audio_btn").get(0);
+    
+    //Se Reinicia el audio al principio
+    $(audio).prop("currentTime", 0);
+    
+    //Se Reproduce el audio
+    $(audio).get(0).play();
+});
