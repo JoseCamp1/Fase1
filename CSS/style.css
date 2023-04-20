@@ -28,39 +28,6 @@ body{
     font-family: 'Roboto', sans-serif;    
 }
 
-/* .header-index{
-    color: transparent;
-}
-
-.navbar{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: var(--color-nav-footer);
-    width: 100%;    
-    justify-content: space-around;    
-    align-items: center;       
-}
-
-.navbar a{
-    text-decoration: none;
-    color: var(--color-texto-nav-footer);
-    padding: 10px;
-    font-size: 20px;    
-}
-
-.navbar a:hover{
-    cursor: pointer;
-    transition: all;
-    transition-duration: 0.7s;
-    color:var(--color-hover-hypervinvulos);
-}
-
-.logonav{
-    padding: 10px;
-    width: 100px;
-    height: 60px;
-} */
-
 .bordelogo{     
     background-color: var(--color-nav-footer);
     width: 800px;
@@ -115,7 +82,7 @@ footer a i:hover{
     width: 400px;
     margin: auto;
     margin-top: 30px;
-    border-radius: 25px;
+    border-radius: 25px;    
 }
 
 .header_quienes h1{
@@ -440,7 +407,7 @@ footer a i:hover{
 
 .seccion_contactenos h2{    
     color: var(--color-titulos);
-    text-shadow: 1px 1px var(--color-titulos-sombras);
+    text-shadow: 1px 1px var(--color-blanco);
 }
 
 .seccion_contactenos p{
@@ -477,7 +444,6 @@ footer a i:hover{
     padding: 7px;
     font-size: 17px;
 }
-
 .seccion_contactenos form textarea{
     min-height: 100px;
     max-height: 200px;
@@ -533,32 +499,17 @@ video {
 
 /* Responsive */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .bordelogo {
-    width: 100%;
+    width: 90%;
     height: auto;
-    border-radius: 0;
+    border-radius: 25px;
     }
     
     .bordelogo img {
-    width: 100%;
+    width: 90%;
     height: auto;
-    }
-    
-    .navbar {
-    flex-wrap: wrap;
-    }
-    
-    .navbar a {
-    font-size: 16px;
-    padding: 5px;
-    }
-    
-    .logonav {
-    width: 70px;
-    height: 40px;
-    padding: 5px;
-    }
+    }        
 
     footer{
         height: 20%;
@@ -599,23 +550,7 @@ video {
     .bordelogo img{
     width: 100%;
     height: auto;    
-    }
-    
-    .navbar{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    }
-    
-    .navbar a{
-    font-size: 16px;
-    margin: 10px 0;
-    }
-    
-    .logonav{
-    width: 80px;
-    height: 40px;
-    }
+    }    
 
     footer{
         height: 20%;
@@ -695,7 +630,7 @@ video {
 
 }  
 
-@media only screen and (-width: 480px) {
+@media only screen and (max-width: 480px) {
         
     .bordelogo{
     width: 90%;
@@ -704,26 +639,10 @@ video {
     }
     
     .bordelogo img{
-    width: 100%;
+    width: 90%;
     height: auto;    
     }
     
-    .navbar{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    }
-    
-    .navbar a{
-    font-size: 16px;
-    margin: 10px 0;
-    }
-    
-    .logonav{
-    width: 80px;
-    height: 40px;
-    }
-
     footer{
         height: 20%;
     }
