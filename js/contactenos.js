@@ -13,9 +13,11 @@ async function handleSubmit(){
     // Crea un nuevo objeto FormData con el formulario.
     const form = new FormData(this)
 
-    // Realiza una petición asíncrona a la dirección especificada en el atributo "action" del formulario.
-    // La petición utiliza el método especificado en el atributo "method" del formulario y envía los datos del formulario utilizando el objeto FormData creado anteriormente.
-    // También incluye un encabezado que especifica que se espera una respuesta en formato JSON.
+    // Realiza una petición asíncrona a la dirección especificada en el atributo
+    // "action" del formulario. La petición utiliza el método especificado en el
+    // atributo "method" del formulario y envía los datos del formulario
+    // utilizando el objeto FormData creado anteriormente. También incluye un
+    // encabezado que especifica que se espera una respuesta en formato JSON.
     const response = await fetch(this.action,{
         method: this.method,
         body: form,
