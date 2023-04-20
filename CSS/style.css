@@ -356,10 +356,14 @@ footer a i:hover{
     transition: 0.7s ease-in-out;    
 }
 
-.contenedor_img_productos img:hover{
+.contenedor_img_productos figure{
+    transition: 0.7s ease-in-out; 
+}
+
+.contenedor_img_productos figure:hover{
     cursor: pointer;
     box-shadow: none;
-    border: 1px solid var(--color-hover-hypervinvulos);    
+    /* border: 1px solid var(--color-hover-hypervinvulos);     */
     transform: scale(1.2)
 
 }
